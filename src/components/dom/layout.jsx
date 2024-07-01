@@ -4,7 +4,7 @@ import { useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import Navbar from "@/components/dom/navbar";
 import PageView from "@/components/views/pageView";
-const Scene = dynamic(() => import("@/components/canvas/Scene"), {
+const Scene = dynamic(() => import("../canvas/scene"), {
   ssr: false,
 });
 
